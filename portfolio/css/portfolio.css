@@ -1,0 +1,42 @@
+body{
+    font-family: 'Playpen Sans', cursive;
+    background:#EBF7E3;
+}
+
+.intro{
+    background: #D8EEC8;
+}
+
+.nav-link{
+    color: black;
+    font-size: 16px;
+    padding-top: .5em;
+}
+
+.nav-link:hover{
+    color:#9BD770
+}
+
+main{
+    color: #1B3409;
+    font-size: larger;
+    padding-left: 1em;
+    padding-right: 1.5em;
+    padding-bottom: 2em;
+}
+
+h1{
+    padding-top: 1em;
+    text-align: left;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.about img{
+    float: right;
+    width: 700px;
+}
+
+.about{
+    padding-top: 5em;
+}
