@@ -1,23 +1,23 @@
-body{
+body {
     background: #edede9;
 }
 
-.intro{
+.nav {
     background: #d6ccc2;
 }
 
-.nav-link{
+.nav-link {
     color: black;
     font-size: 16px;
     padding-top: .5em;
     font-family: 'Orienta', sans-serif;
 }
 
-.nav-link:hover{
-    color:#432818;
+.nav-link:hover {
+    color: #432818;
 }
 
-main{
+main {
     color: black;
     font-size: larger;
     padding-left: 1em;
@@ -25,7 +25,7 @@ main{
     padding-bottom: 2em;
 }
 
-h1{
+h1 {
     padding-top: 1em;
     text-align: left;
     font-weight: 600;
@@ -33,64 +33,160 @@ h1{
     font-family: 'PT Sans', sans-serif;
 }
 
-.about img{
+.about img {
     float: right;
     width: 700px;
 }
 
-.about{
+.about {
     padding-top: 5em;
     font-family: 'Overpass', sans-serif;
 }
 
-.top{
-    padding-top: .5em;
+.top {
+    padding-top: .25em;
     font-size: 45px;
     text-align: center;
     line-height: .1em;
-    padding-bottom: .5em;
+    padding-bottom: 0em;
 }
 
-h2{
+h2 {
     font-size: 40px;
     font-weight: 400;
 }
 
-.left{
+.lefthalf {
+    float: left;
+    max-width: 50%;
+}
+
+.righthalf {
+    float: right;
+    max-width: 40%;
+}
+
+.left {
     font-size: 35px;
     padding-top: .5em;
     padding-bottom: .5em;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Karma', serif;
+    text-align: center;
 }
 
-.resinfo{
+.resinfo {
     padding-left: 2em;
 }
 
-.company{
+.company {
     font-size: 20px;
     padding-top: 0em;
     padding-left: 1.5em;
     font-family: 'Orienta', sans-serif;
 }
 
-.position{
+.position {
     padding-left: 3em;
     line-height: 0em;
     font-size: 15px;
     font-family: 'Overpass', sans-serif;
-    font-family: 'Montserrat Alternates', sans-serif;
     color: #403d39;
 }
 
-.desc{
+.desc {
     padding-left: 6em;
     padding-top: .25em;
     line-height: 1.2em;
     font-size: 15px;
     font-family: 'Trirong', serif;
 }
-small{
+
+small {
     font-size: small;
-    font-style:italic
+    font-style: italic
+}
+
+.skills {
+    line-height: 1.5em;
+    float: left;
+    font-size: smaller;
+}
+
+.expertise {
+    line-height: 1.5em;
+    float: right;
+    font-size: smaller;
+}
+
+.bigclips{
+    padding: 0 1em 0 2em;
+}
+
+h4{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 30px;
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    font-size: smaller;
+}
+
+.column{
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.game {
+    font-family: 'Trirong', serif;
+    line-height: 2em;
+    color: black;
+    text-decoration: solid;
+}
+
+.game:hover {
+    color: #e63946;
+}
+
+.stories{
+    display: flex;
+}
+
+.audio{
+    padding-bottom: 2em;
+    padding: 10px;
+    flex: 50%;
+}
+
+.news{
+    max-width: 80%;
+    line-height: 1.5em;
+    padding-top: 1.5em;
+    font-family: 'Trirong', serif;
+}
+
+.reach{
+    text-align: center;
+    font-family: 'Karma', serif;
+    padding-top: 2em;
+    padding-left: 1em;
+    font-size: 30px;
+}
+
+.lit{
+    text-align: center;
+    padding-top: 3em;
+    list-style-type: none;
+    font-style: oblique;
+    line-height: 2em;
+}
+
+.too{
+    color: black;
+}
+
+.too:hover{
+    color: #99582a;
 }
