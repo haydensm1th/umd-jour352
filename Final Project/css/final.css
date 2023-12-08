@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+
+header{
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+figure{
+    font-size: 10px;
+    line-height: 3em;
+}
+
+.center{
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.center i{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 3em;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.5em;
+    padding-top: 25%;
+}
+
+.container{
+    padding: 5% 0 5% 0;
+    max-width: 70%;
+    margin: auto;
+    color: white;
+}
+
+.intro{
+    font-weight: 600;
+    line-height: 1.5em;
+    font-family: 'Numans', sans-serif;
+}
+
+h2{
+    font-size: 45px;
+    font-family: 'Hind', sans-serif;
+    padding: 10% 0 5% 0;
+}
