@@ -1,54 +1,121 @@
 body{
     background-color: black;
+    color: white;
+    font-size: 20px;
 }
 
 header{
     min-height: 100vh;
-    color: white;
     text-align: center;
 }
 
-figure{
+header i{
     font-size: 10px;
-    line-height: 3em;
+    color: gray;
+}
+
+.digest{
+    color: gray;
+}
+
+.digest:hover{
+    color: gray;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    font-weight: 1000;
+    line-height: 1.5em;
 }
 
 .center{
     position: absolute;
-    top: 20%;
-    left: 24%;
-    font-family: 'Montserrat', sans-serif;
+    top: calc(35% - 3em);
+    left: 0;
     text-align: center;
+    width: 100%
 }
 
-.center i{
+.center p{
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 3em;
 }
 
-h1{
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 1.5em;
-    padding-top: 25%;
+.container{
+    padding: 5% 0;
+    max-width: 70%;
+    font-family: 'Catamaran', sans-serif;
 }
 
-.container{
-    padding: 5% 0 5% 0;
-    max-width: 70%;
-    margin: auto;
+.container p{
+    font-weight: 500;
+    line-height: 1.5em;
+}
+
+.source{
     color: white;
 }
 
-.intro{
-    font-weight: 600;
-    line-height: 1.5em;
-    font-family: 'Numans', sans-serif;
+.source:hover{
+    color: white;
 }
 
 h2{
-    font-size: 45px;
+    font-size: 2.5em;
     font-family: 'Hind', sans-serif;
-    padding: 10% 0 5% 0;
+    padding: 5% 0;
+}
+
+.main img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    padding-bottom: 2em;
+}
+
+iframe{
+    margin-top: 5%;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 15px;
+    color: gray;
+}
+
+.portfolio{
+    color: gray;
+}
+
+.portfolio:hover{
+    color: #00FA19;
+}
+
+
+@media(max-width: 796px){
+    h1{
+        font-size: 2em;
+    }
+    .center{
+        top: calc(20%);
+    }
+}
+
+@media (max-width: 576px){
+    .center{
+        top: calc(50%);
+    }
+    body{
+        font-size: 1em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    header i{
+        font-size: .5em;
+    }
 }
